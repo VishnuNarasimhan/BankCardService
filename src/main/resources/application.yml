@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: CardsService
+
+  datasource:
+    url: jdbc:mysql://localhost:3306/CardService
+    username: CardServiceUser
+    driver-class-name: com.mysql.cj.jdbc.Driver
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true

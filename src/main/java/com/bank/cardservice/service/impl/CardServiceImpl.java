@@ -15,7 +15,7 @@ import java.util.Optional;
 import java.util.Random;
 
 @Service
-//@AllArgsConstructor
+@AllArgsConstructor
 public class CardServiceImpl implements ICardService {
     private CardRepository cardRepository;
 
